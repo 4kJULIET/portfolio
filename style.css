@@ -40,7 +40,7 @@ header nav ul li a:hover{
     color: #ff6347;
 }
 #hero{
-    background: url('slide.jpg') no-repeat center center/cover;
+    background: url('images/slide.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 100px 20px;
@@ -52,6 +52,9 @@ header nav ul li a:hover{
     margin-bottom: 20px;
     }
 
+#hero h1 span {
+    color: #ff6347;
+}
     
     #hero p {
     font-size: 1.2rem;
@@ -79,7 +82,14 @@ header nav ul li a:hover{
     
     padding: 50px 20px;
     background-color: #fff;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+    }
+
+    #about div {
+        flex-direction: row;
+        
     }
 
 
@@ -333,4 +343,7 @@ header nav ul {
         height: auto; 
         border-radius: 5px; 
         } 
+        
+
+
         
